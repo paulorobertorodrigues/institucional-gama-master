@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+html, body {
+  width: 100%;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+
+a {
+ text-decoration: none; 
+}
+
+:root {
+  --dark-primary-color: #FFA000;
+  --ligth-primary-color: #FFECB3;
+  --primary-color: #FFC107;
+  --text-and-icons: #212121;
+  --accent-color: #FFC107;
+  --primary-text: #212121;
+  --secondary-text: #757575;
+  --divider-color: #BDBDBD;
+  /**DEIXAR PARA ADICIONAR AS FONTES NA HORA DE ADICIONAR OS TEXTOS DO NAVA**/
+  --font-size-tiny: 16px;
+  --font-size-small: 20px;
+  --font-size-medium: 24px;
+  --font-size-big: 56px;
+  --font-size-larger: 72px;
+}

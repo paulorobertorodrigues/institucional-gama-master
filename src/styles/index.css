@@ -1,0 +1,133 @@
+.generic-section {
+  width: 100vw;
+  height: 100vh;
+
+}
+
+header {
+  position:relative;
+  width: 100%;
+  
+
+}
+#section-recipes-with-affection {
+  background-image: url('../../assets/images/bg-home.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position:relative;
+}
+
+h1 {
+  font-size: var(--font-size-larger);
+
+  color: #FFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+}
+
+#title-recipes-with-affection {
+  color: #FFF;
+  text-shadow: 0px 4px 4px #000;
+  
+  text-align: left;
+  width: 400px;
+
+  margin-right: 100px;
+
+  position: absolute;
+
+  top: 16%;
+  left: 66%;
+}
+
+#title-recipes-of-week {
+  color: var(--dark-primary-color);
+
+  font-size: var(--font-size-big);
+
+  text-align: center;
+}
+
+.card-row {
+  display: flex;
+
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.card-row div {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.card-row div img {
+  width: 345px;
+  height: 342px;
+}
+
+.card-row div strong {
+  margin: 4px 0px;
+}
+
+.card-row div button {
+  width: 120px;
+  
+  padding: 6px;
+  
+  border: 0;
+  
+  font-size: larger;
+  
+  color: #FFF;
+  background-color: #176902;
+  
+  cursor: pointer;
+}
+
+.card-row div button:hover {
+  transition: 0.4s;
+  background-color: #31881c;
+}
+
+#section-how-is-to-live {
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-content: center;
+
+  background-image: url('../../assets/images/comer-e-viver.png');
+
+  position: relative;
+}
+
+#section-how-is-to-live h1 {
+  position: absolute;
+
+  top: 40%;
+  left: -1%;
+
+  color: #FFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  margin: 10px 60px;
+}
+
+#section-how-is-to-live p {
+  width: 424px;
+
+  position: absolute;
+
+  top: 62%;
+  left: 4%;
+
+  font-weight: 500;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #FFF;
+}

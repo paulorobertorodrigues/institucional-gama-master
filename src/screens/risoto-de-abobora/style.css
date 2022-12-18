@@ -1,0 +1,213 @@
+#root {
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+main {
+  width: 70%;
+}
+
+h1 {
+  position: absolute;
+  width: 462px;
+  height: 61px;
+  left: 120px;
+  top: 272px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 60px;
+  text-transform: lowercase;
+  color: #FFA000;
+
+}
+h2 {
+  position: absolute;
+  width: 321px;
+  height: 37px;
+  left: 904px;
+  top: 343px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 37px;
+  text-transform: lowercase;
+  color: #FFA000;
+}
+
+#video {
+  position: absolute;
+  width: 580px;
+  height: 317px;
+  left: 120px;
+  top: 1303px;
+}
+
+.card-related-recipes1 {
+  position: absolute;
+  width: 345px;
+  height: 411px;
+  left: 904px;
+  top: 407px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: lowercase;
+  color: #000000;
+}
+  
+.card-related-recipes2 {
+  position: absolute;
+  width: 345px;
+  height: 411px;
+  left: 904px;
+  top: 873px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: lowercase;
+  color: #000000;  
+}
+.card-related-recipes3 {
+  position: absolute;
+  width: 345px;
+  height: 411px;
+  left: 907px;
+  top: 1374px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: lowercase;
+  color: #000000;
+
+}
+
+.card-related-recipes img {
+  width: 240px;
+  
+}
+
+#risoto-tags {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 592px;
+  height: 311px;
+  left: 120px;
+  top: 361px;
+  background: #C4C4C4; 
+}
+
+#risoto-tags img{
+  width: 592px;
+  height: 311px;
+  
+}
+
+#risoto-tags div {
+  display: flex;
+  align-items: center;
+
+}
+
+.tags1 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 95px;
+  height: 31px;
+  left: 0px;
+  top: 340px;
+  border: 1px solid #176902;
+  border-radius: 47px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center; 
+  text-transform: lowercase;
+  color: #176902;
+}
+
+.tags2 {
+  border: 1px solid #176902;
+  border-radius: 470px;
+  padding: 4px;
+  min-width: 100px;
+  box-sizing: border-box;
+  position: absolute;
+  width: 196px;
+  height: 31px;
+  left: 120px;
+  top: 340px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: lowercase;
+  color: #176902; 
+}
+
+#ingredientes {
+  list-style: none;
+  position: absolute;
+  width: 592px;
+  height: 480px;
+  left: 128px;
+  top: 786px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 60;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: lowercase;
+  color: #000000;
+}
+
+p {
+  position: absolute;
+  width: 592px;
+  height: 576px;
+  left: 128px;
+  top: 1655px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: justify;
+  line-height: 24px;
+  text-transform: lowercase;
+  color: #000000;
+}
+
+footer {
+  position: absolute;
+  width: 1440px;
+  height: 119px;
+  left: 0px;
+  top: 2397px;  
+  background: #FFC107;
+  width: 100vw;
+  display: flex;
+  justify-content: left;
+}

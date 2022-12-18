@@ -1,0 +1,285 @@
+#root {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  main {
+    width: 70%;
+  }
+  
+  h1 {
+    position: absolute;
+    width: 462px;
+    height: 61px;
+    left: 120px;
+    top: 272px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: lowercase;
+    color: #FFA000;
+  
+  } 
+
+  .button1 {
+    position: absolute;
+    width: 160px;
+    height: 35px;
+    left: 88px;
+    top: 400px;
+    background: #176902;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 2px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFF;
+
+}
+ 
+  .card-related-recipes1  {
+    position: absolute;
+    width: 345px;
+    height: 342px;
+    left: 119px;
+    top: 399px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #000000;   
+  }
+    
+  .card-related-recipes2 {
+    position: absolute;
+    width: 345px;
+    height: 342px;
+    left: 547px;
+    top: 399px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #000000;  
+  }
+  .card-related-recipes3 {
+    position: absolute;
+    width: 345px;
+    height: 342px;
+    left: 972px;
+    top: 399px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #000000;
+  
+  }
+
+  .card-related-recipes4 {
+    position: absolute;
+    width: 345px;
+    height: 342px;
+    left: 119px;
+    top: 964px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #000000;
+  }
+  .card-related-recipes5 {
+    position: absolute;
+    width: 345px;
+    height: 342px;
+    left: 547px;
+    top: 964px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #000000;
+  }
+
+  .card-related-recipes6 {
+    position: absolute;
+    width: 345px;
+    height: 342px;
+    left: 972px;
+    top: 964px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #000000;
+  }
+
+  .card-related-recipes7 {
+    position: absolute;
+    width: 345px;
+    height: 342px;
+    left: 125px;
+    top: 1529px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #000000;
+  }
+  .card-related-recipes8 {        
+    position: absolute;
+    width: 345px;
+    height: 342px;
+    left: 553px;
+    top: 1529px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #000000;
+  }
+
+  .card-related-recipes9 {
+    position: absolute;
+    width: 345px;
+    height: 342px;
+    left: 978px;
+    top: 1529px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #000000;
+  }
+
+  .card-related-recipes img {
+    width: 240px;    
+  }
+  
+  #risoto-tags {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 592px;
+    height: 311px;
+    left: 120px;
+    top: 361px;
+    background: #C4C4C4; 
+  }
+  
+  #risoto-tags img{
+    width: 592px;
+    height: 311px;
+    
+  }
+  
+  #risoto-tags div {
+    display: flex;
+    align-items: center;
+  
+  }
+  
+  .tags1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 95px;
+    height: 31px;
+    left: 0px;
+    top: 340px;
+    border: 1px solid #176902;
+    border-radius: 47px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center; 
+    text-transform: lowercase;
+    color: #176902;
+  }
+  
+  .tags2 {
+    border: 1px solid #176902;
+    border-radius: 470px;
+    padding: 4px;
+    min-width: 100px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 196px;
+    height: 31px;
+    left: 120px;
+    top: 340px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #176902; 
+  }
+  
+  
+  footer {
+    position: absolute;
+    width: 1440px;
+    height: 119px;
+    left: 0px;
+    top: 2397px;  
+    background: #FFC107;
+    width: 100vw;
+    display: flex;
+    justify-content: left;
+  }
+  
